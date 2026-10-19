@@ -1,0 +1,10 @@
+# Analiza la notebook actual: /home/carlosm/DS_ComplexSystem_v2/Hypnograms/ Kevin_Vargas_Flores_Power_Law_Symbolic_Analysis.ipynb y genera un plan para implementar unica y exclusivamente la parte 6. Teoria de la información: buscando periodicidades.
+Ahora tengo suficiente contexto. Entiendo que:
+
+Los datos están en hipnogramas (dict con Series de pandas) y hipnogramas_np (dict con arrays numpy)
+Cada hipnograma tiene ~8 horas de sueño, segmentado en épocas de 30 segundos
+La Parte 6 pide elegir UNA medida de teoría de la información (entropía marginal, conjunta, condicional o información mutua) y graficarla en función del retardo τ para buscar periodicidades
+El ciclo ultradiano esperado es ~90 min ≈ 180 segmentos
+Antes de crear el plan, necesito aclarar algunos puntos con el usuario sobre sus preferencias de implementación.
+----
+
